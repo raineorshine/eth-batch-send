@@ -1,0 +1,5 @@
+{
+  "address": "ADDRESS",
+  "privKey": "PRIVATE_KEY",
+  "web3Provider": "http://localhost:8545"
+}
