@@ -25,6 +25,7 @@ web3.eth.getTransactionCount(addressFrom).then(txCount => {
   // send to each address
   addresses.forEach((addressTo, i) => {
     const txData = {
+      chainId: 420666,
       nonce: web3.utils.toHex(txCount + i),
       gasLimit: web3.utils.toHex(config.gasLimit),
       gasPrice: web3.utils.toHex(config.gasPrice),
